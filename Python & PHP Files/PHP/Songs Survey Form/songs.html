@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Songs Survey Form</title>
+<style type="text/css">
+body { background-color:#DDDFFF; color:navy}
+.center {text-align:center}
+</style>
+</head>
+
+<body>
+<h1>Songs Survey Form</h1>
+
+<form action = "http://localhost:8088/songswrite.php" method = "POST">
+
+<p>
+<h3>Name of the Song</h3>
+<input type = "text" name = "song" size="45" />
+</p>
+
+<p>
+<h3>Name of the Composer</h3>
+<input type = "text" name = "composer" size="45" />
+</p>
+
+<p>
+<h3>Name of the Group or Artist</h3>
+<input type = "text" name = "artist" size="45" />
+</p>
+
+
+<p>
+<input type="submit" value="Submit" />
+<input type="reset" value="Reset Form" />
+</p>
+
+</form>
+</body>
+</html>
